@@ -1,0 +1,25 @@
+{
+    "name": "n2neuron/paper-trail",
+    "description": "A versioning and audit trail library for Laravel Eloquent and Ardent",
+    "keywords": ["laravel","eloquent","ardent","audit","versioning"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trey Perkins",
+            "email": "trey@n2neuron.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "N2neuron\\PaperTrail": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
